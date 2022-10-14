@@ -1,0 +1,15 @@
+{
+  "name": "slides-svg",
+  "private": true,
+  "scripts": {
+    "build": "slidev build --base /slides-svg/",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.36.6",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "element-plus": "^2.2.18"
+  }
+}
